@@ -129,29 +129,27 @@ import { siteConfig } from "../config";
       height="100%"
       stroke-width={0}></rect>
   </svg>
-<div class="h-full mx-auto p-8 sm:p-12 md:p-24 flex items-center">
-  <div class="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-    <div class="order-2 md:order-1">
-      <h2 class="text-pretty text-xl sm:text-2xl md:text-5xl font-bold tracking-tight text-gray-700 animate-fade-in">
+  <div class="h-full mx-auto p-8 sm:p-12 md:p-24 flex items-center">
+    <div>
+      <h2
+        class="text-pretty text-xl sm:text-2xl md:text-5xl font-bold tracking-tight text-gray-700 animate-fade-in"
+      >
         Hello! 👋
       </h2>
-      <h1 class="mt-6 sm:mt-8 md:mt-10 text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight text-gray-800 animate-fade-in animation-delay-200">
-        I'm <span style={{ color: siteConfig.accentColor }}>{siteConfig.name}</span>
+      <h1
+        class="mt-6 sm:mt-8 md:mt-10 text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight text-gray-800 animate-fade-in animation-delay-200"
+      >
+        I'm <span style={{ color: siteConfig.accentColor }}
+          >{siteConfig.name}</span
+        >
       </h1>
-      <p class="mt-4 sm:mt-6 md:mt-8 text-pretty text-base sm:text-lg md:text-xl/8 font-medium text-gray-600 animate-fade-in animation-delay-400">
+      <p
+        class="mt-4 sm:mt-6 md:mt-8 text-pretty text-base sm:text-lg md:text-xl/8 font-medium text-gray-600 animate-fade-in animation-delay-400"
+      >
         {siteConfig.title}
       </p>
     </div>
-
-    <div class="order-1 md:order-2 flex justify-center md:justify-end">
-      <img
-        src="/portfolio.jpg"
-        
-        class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-2xl border-8 border-white dark:border-gray-800"
-      />
-    </div>
   </div>
-</div>
   <div
     class="absolute bottom-0 left-0 right-0 p-8 sm:p-12 md:p-24 flex gap-x-4 sm:gap-x-6 md:gap-x-8 text-gray-700 animate-fade-in animation-delay-600"
   >
